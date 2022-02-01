@@ -5,7 +5,6 @@ import { fetchUsers } from '../store/actions/userAction';
 
 const  UserList: FC = () => {
   const {users, error, isLoading} = useTypedSelector(state => state.users)
-  console.log(users);
   
   const dispatch = useDispatch()
   
